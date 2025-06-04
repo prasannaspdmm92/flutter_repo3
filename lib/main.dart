@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app2/screens/row_column_stack.dart';
+import 'package:flutter_app2/screens/image_gallary_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ),
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      home: RowColumnStack(),
+      home: ImageGallaryScreen(),
     );
   }
 }

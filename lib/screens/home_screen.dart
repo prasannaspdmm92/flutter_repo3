@@ -76,6 +76,7 @@ class MyHomeScreen extends StatelessWidget
           BottomNavigationBarItem(icon: Icon(Icons.house),label:"Home"),
           BottomNavigationBarItem(icon:Icon(Icons.verified_user),label:"Profile"),
         ]),
+        
     );
         }
   }           
